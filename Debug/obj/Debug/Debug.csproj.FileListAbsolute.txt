@@ -1,0 +1,60 @@
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Debug.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Debug.pdb
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\UnityEditor.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\UnityEngine.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.Cecil.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.SerializationLogic.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.DataContract.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\ExCSS.Unity.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.Legacy.NRefactory.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.UNetWeaver.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.CecilTools.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.Cecil.Pdb.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\Unity.Cecil.Mdb.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\UnityEditor.xml
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\bin\Debug\UnityEngine.xml
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\obj\Debug\Debug.csprojAssemblyReference.cache
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\obj\Debug\Debug.csproj.CopyComplete
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\obj\Debug\Debug.dll
+G:\Unity Projects\HeedTheHunt\Heed The Hunt\Assets\Plugins\Debug\Debug\obj\Debug\Debug.pdb
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Debug.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Debug.pdb
+G:\Unity Projects\_Libraries\Debug\bin\Debug\UnityEditor.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\UnityEngine.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.Cecil.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.SerializationLogic.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.DataContract.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\ExCSS.Unity.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.Legacy.NRefactory.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.UNetWeaver.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.CecilTools.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.Cecil.Pdb.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\Unity.Cecil.Mdb.dll
+G:\Unity Projects\_Libraries\Debug\bin\Debug\UnityEditor.xml
+G:\Unity Projects\_Libraries\Debug\bin\Debug\UnityEngine.xml
+G:\Unity Projects\_Libraries\Debug\obj\Debug\Debug.csprojAssemblyReference.cache
+G:\Unity Projects\_Libraries\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
+G:\Unity Projects\_Libraries\Debug\obj\Debug\Debug.csproj.CopyComplete
+G:\Unity Projects\_Libraries\Debug\obj\Debug\Debug.dll
+G:\Unity Projects\_Libraries\Debug\obj\Debug\Debug.pdb
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Debug.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Debug.pdb
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\UnityEditor.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\UnityEngine.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.Cecil.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.SerializationLogic.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.DataContract.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\ExCSS.Unity.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.Legacy.NRefactory.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.UNetWeaver.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.CecilTools.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.Cecil.Pdb.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\Unity.Cecil.Mdb.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\UnityEditor.xml
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\bin\Debug\UnityEngine.xml
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\obj\Debug\Debug.csprojAssemblyReference.cache
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\obj\Debug\Debug.csproj.CopyComplete
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\obj\Debug\Debug.dll
+G:\Unity Projects\_Libraries\IncodeDebug\Unity-Conditional-Debug\Debug\obj\Debug\Debug.pdb
