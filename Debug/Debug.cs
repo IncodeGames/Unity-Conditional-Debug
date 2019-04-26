@@ -1,14 +1,16 @@
-﻿using System;
-using System.Xml;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using UnityEngine;
 
 namespace IncodeDebug
 {
     public static class Debug
     {
+        [Conditional("DEBUG_LOGGING")]
+        public static void Assert(bool condition)
+        {
+            UnityEngine.Debug.Assert(condition);
+        }
+
         [Conditional("DEBUG_LOGGING")]
         public static void Log(object str)
         {
@@ -43,6 +45,30 @@ namespace IncodeDebug
         public static void LogErrorFormat(string str, object[] args)
         {
             UnityEngine.Debug.LogErrorFormat(str, args);
+        }
+
+        [Conditional("DEBUG_LOGGING")]
+        public static void DrawLine(Vector3 start, Vector3 end)
+        {
+            UnityEngine.Debug.DrawLine(start, end);
+        }
+
+        [Conditional("DEBUG_LOGGING")]
+        public static void DrawLine(Vector3 start, Vector3 end, Color color)
+        {
+            UnityEngine.Debug.DrawLine(start, end, color);
+        }
+
+        [Conditional("DEBUG_LOGGING")]
+        public static void DrawLine(Vector3 start, Vector3 end, Color color, float duration)
+        {
+            UnityEngine.Debug.DrawLine(start, end, color, duration);
+        }
+
+        [Conditional("DEBUG_LOGGING")]
+        public static void DrawLine(Vector3 start, Vector3 end, Color color, float duration, bool depthTest)
+        {
+            UnityEngine.Debug.DrawLine(start, end, color, duration, depthTest);
         }
 
         [Conditional("DEBUG_LOGGING")]
