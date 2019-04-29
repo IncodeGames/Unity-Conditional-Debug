@@ -21,9 +21,15 @@ namespace Incode
         }
 
         [Conditional(DEBUG_LOGGING)]
-        public static void LogFormat(string str, object[] args)
+        public static void LogFormat(string str, params object[] args)
         {
             UnityEngine.Debug.LogFormat(str, args);
+        }
+
+        [Conditional(DEBUG_LOGGING)]
+        public static void LogFormat(Object context, string str, params object[] args)
+        {
+            UnityEngine.Debug.LogFormat(context, str, args);
         }
 
         [Conditional(DEBUG_LOGGING)]
@@ -33,9 +39,15 @@ namespace Incode
         }
 
         [Conditional(DEBUG_LOGGING)]
-        public static void LogWarningFormat(string str, object[] args)
+        public static void LogWarningFormat(string str, params object[] args)
         {
             UnityEngine.Debug.LogWarningFormat(str, args);
+        }
+
+        [Conditional(DEBUG_LOGGING)]
+        public static void LogWarningFormat(Object context, string str, params object[] args)
+        {
+            UnityEngine.Debug.LogWarningFormat(context, str, args);
         }
 
         [Conditional(DEBUG_LOGGING)]
@@ -45,9 +57,15 @@ namespace Incode
         }
 
         [Conditional(DEBUG_LOGGING)]
-        public static void LogErrorFormat(string str, object[] args)
+        public static void LogErrorFormat(string str, params object[] args)
         {
             UnityEngine.Debug.LogErrorFormat(str, args);
+        }
+
+        [Conditional(DEBUG_LOGGING)]
+        public static void LogErrorFormat(Object context, string str, params object[] args)
+        {
+            UnityEngine.Debug.LogErrorFormat(context, str, args);
         }
 
         [Conditional(DEBUG_LOGGING)]
