@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿#define UNITY_ASSERTIONS
+using System.Diagnostics;
 using UnityEngine;
 
 namespace Incode
@@ -7,30 +8,31 @@ namespace Incode
     {
         //This exact string must be included in Unity's Scripting Define Symbols
         public const string DEBUG_LOGGING = "DEBUG_LOGGING";
+        public const string ERROR_ONLY_LOGGING = "ERROR_ONLY_LOGGING";
 
         public static bool DeveloperConsoleVisible { get { return UnityEngine.Debug.developerConsoleVisible; } set { UnityEngine.Debug.developerConsoleVisible = value; } }
         public static bool IsDebugBuild { get { return UnityEngine.Debug.isDebugBuild; } }
         public static ILogger UnityLogger { get { return UnityEngine.Debug.unityLogger; } }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void Assert(bool condition)
         {
             UnityEngine.Debug.Assert(condition);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void Assert(bool condition, Object context)
         {
             UnityEngine.Debug.Assert(condition, context);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void Assert(bool condition, object message)
         {
             UnityEngine.Debug.Assert(condition, message);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void Assert(bool condition, object message, Object context)
         {
             UnityEngine.Debug.Assert(condition, message, context);
@@ -72,49 +74,49 @@ namespace Incode
             UnityEngine.Debug.LogFormat(context, str, args);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogWarning(object str)
         {
             UnityEngine.Debug.LogWarning(str);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogWarning(object str, Object context)
         {
             UnityEngine.Debug.LogWarning(str, context);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogWarningFormat(string str, params object[] args)
         {
             UnityEngine.Debug.LogWarningFormat(str, args);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogWarningFormat(Object context, string str, params object[] args)
         {
             UnityEngine.Debug.LogWarningFormat(context, str, args);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogError(object str)
         {
             UnityEngine.Debug.LogError(str);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogError(object str, Object context)
         {
             UnityEngine.Debug.LogError(str, context);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogErrorFormat(string str, params object[] args)
         {
             UnityEngine.Debug.LogErrorFormat(str, args);
         }
 
-        [Conditional(DEBUG_LOGGING)]
+        [Conditional(DEBUG_LOGGING), Conditional(ERROR_ONLY_LOGGING)]
         public static void LogErrorFormat(Object context, string str, params object[] args)
         {
             UnityEngine.Debug.LogErrorFormat(context, str, args);
